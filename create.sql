@@ -26,10 +26,10 @@ SELECT * FROM flights WHERE origin IN ('New York', 'Lima');
 -- Any origin that has an 'a' in it
 SELECT * FROM flights WHERE origin LIKE '%a%';
 -- Limiting the results of a query
-SELECT * FROM flights LIMIT 2;
+SELECT * FROM flights LIMIT 2
 SELECT * FROM flights ORDER BY duration ASC;
 SELECT * FROM flights ORDER BY duration DESC;
-SELECT * FROM flights ORDER BY duration ASC LIMIT 3;
+SELECT * FROM flights ORDER BY duration ASC LIMIT 3
 
 
 -- Using functions
